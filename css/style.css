@@ -1,0 +1,165 @@
+body {
+  font-family: 'Lucida Sans', cursive;
+}
+
+.container {
+   display: flex;
+   direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100%;
+	max-width: 1240px;
+	padding: 10px;
+	margin: auto;
+   background: rgb(255, 255, 255);
+}
+
+.item1 {
+   height: 300px;
+   width: 300px;
+   background: rgb(194, 160, 122);
+   box-shadow: 10px 7px 5px 0 black;
+}
+ .item2 {
+    height: 300px;
+    width: 900px;
+    background: rgb(203, 206, 199);
+    box-shadow: 7px 7px 5px 0 black;
+ }
+ .item3 {
+   height: 1424px;
+   width: 290px;
+   background: rgb(24, 24, 24);
+   box-shadow: 7px 7px 5px 0 black;
+   color: rgb(194, 160, 122);
+   margin: 10px;
+}
+.item4 {
+   height: 1424px;
+   width: 890px;
+   background: rgb(24, 24, 24);
+   box-shadow: 7px 7px 5px 0 black;
+   color: rgb(194, 160, 122);
+   margin: 10px;
+}
+
+
+.lokal, .gmail, .phone {
+   float: right;
+   line-height: 25px;
+   font-size: 18px;
+   margin-top: 90px;
+   width: 300px;
+   text-align: center;
+  }
+  
+a {font-size:20px; color:#000000;text-decoration: none;}
+a:hover {font-size:18px; color:rgb(10, 21, 29); font-weight:bold; text-decoration: none;}
+
+.header {
+   font-size: 25px;
+   font-weight: bold;
+}
+
+h1 {
+   padding-left: 130px;
+   font-size: 50px;
+   padding-top: 40px;
+}
+
+.education, .experience, .hardskills, .softskills {
+
+   color: white;
+   font-size: 25px;
+   padding: 10px 10px 0 70px;
+}
+
+.intro {
+   color: white;
+   font-size: 25px;
+   padding: 30px 10px 0 70px;
+
+}
+p {
+   font-size: 17px;
+   padding-left: 10px;
+   margin-top: 10px;
+}
+
+.text-intro {
+   color: rgb(194, 160, 122);
+   font-size: 20px;
+   padding: 20px 40px 20px 40px;
+   text-indent: 30px;
+}
+.text-skills{
+   padding: 20px 20px 20px 100px;
+}
+
+table .text-skills {
+   table-layout: fixed;
+   width: 660px;
+   border: 3px solid rgb(24, 24, 24);
+   border-radius: 9px;
+   text-align: center;
+   padding: 5px;
+   color: black;
+   font-size: 20px;
+   background-color: rgb(194, 160, 122);
+   cursor: pointer;
+}
+
+table .text-skills:hover { background-color: rgb(243, 212, 177);}
+
+tr .text-skills {
+   width: 220px;
+}
+
+.push {
+   list-style: none;
+   font-size: 20px;
+ }
+ .push li {
+   position: relative;
+   padding: 10px 10px 20px 20px;
+   color: rgb(194, 160, 122);
+   cursor: pointer;
+ }
+ .push li:before {
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   border-radius: 50%;
+   background: white;
+   content: "";
+   left: 0;
+   transition: .3s ease-in-out;
+   top: 20px;
+ }
+ .push li:after {
+   position: absolute;
+   border-left: 1px dotted #4F5151;
+   width: 1px;
+   bottom: -10px;
+   content: "";
+   left: 3px;
+   top: 40px;
+ }
+ .push li:hover:before {box-shadow: 0 0 0 10px rgba(203, 206, 199, 0.2)}
+ .push li:last-child:after {content: none;}
+
+ .aboutme, .languages, .interests {
+    color: white;
+    font-size: 25px;
+    padding: 30px 20px 20px 25px;
+ }
+
+.level {
+   padding: 20px 20px 20px 25px;
+   font-size: 20px;
+   color: rgb(194, 160, 122);
+}
+
+progress {
+   width: 200px;
+}
